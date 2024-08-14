@@ -24,7 +24,7 @@ import androidx.compose.ui.viewinterop.AndroidView
 fun HomeScreen(modifier: Modifier = Modifier) {
 
     val url by remember {
-        mutableStateOf("https://roozbehzarei.me")
+        mutableStateOf("https://developer.android.com")
     }
 
     val webView by remember {
